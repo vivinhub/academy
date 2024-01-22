@@ -27,7 +27,156 @@
 
   <link rel="stylesheet" href="css/style.css">
 
+<style>
 
+.ftco-section-3 {
+    padding: 8em 0;
+    position: relative;
+}
+.justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+.text-center {
+    text-align: center !important;
+}
+@media (min-width: 768px)
+.about-video .play-button {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -11.4em;
+}
+.about-video .play-button {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    z-index: 1;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background: #167ce9;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse 2s infinite;
+}
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.ion-ios-play:before {
+    content: "\f488";
+}
+
+.about_section {
+  color: #ffffff;
+  padding-left: 10%;
+  padding-right: 12%;
+  margin-top:100px;
+}
+
+.about_section .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin-top: 50px;
+}
+
+.about_section .box .img-box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.about_section .box .img-box img {
+  width: 100%;
+}
+
+.about_section .box .detail-box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 6px;
+  margin: 30px 0;
+  background-color: #252525;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about_section .box .detail-box p {
+  margin: 0;
+}
+
+.about_section .box .detail-box a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+  color: #82c419;
+}
+
+.about_section .box .detail-box a hr {
+  border: none;
+  width: 90px;
+  height: 1px;
+  background-color: #82c419;
+  margin:0px;
+  margin-left: 5px;
+}
+.about-text{
+ font-size:12px;
+}
+@media (max-width: 1300px) {
+    .about_section {
+     padding-left: 5%;
+     padding-right: 5%;
+
+    }
+
+    .about_section .box {
+        align-items: center;
+    }
+
+@media (max-width: 768px) {
+    .about_section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .about_section .box {
+        flex-direction: column;
+    }
+
+    .about_section .box .detail-box {
+        margin: 0;
+    }
+
+}
+</style>
 
 </head>
 
@@ -76,13 +225,14 @@
     <div class="hero overlay" style="background-image: url('images/bg_3.jpg');">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-5 ml-auto">
+          <div class="col-lg-8 ml-auto">
             <h1 class="text-white">Welcome to Ball Life Sports Academy</h1>
+<h2 class="text-white">Your Premier Basket Ball Sports Academy in Dubai for Skill Development and Success</h2>
             <p>Dubai's premier basketball training at Ball Life Sports Academy (BLSA) – the city's top coaching destination. All skill levels are welcome. Join the BLSA family, elevate your game, and experience global vibes on the court. Awaken your inner baller with the best in Dubai.</p>
-            <div id="date-countdown"></div>
+            <!--<div id="date-countdown"></div> -->
             <p>
-              <a href="#" class="btn btn-primary py-3 px-4 mr-3">Book Ticket</a>
-              <a href="#" class="more light">Learn More</a>
+              <a href="#" class="btn btn-primary py-3 px-4 mr-3">Join BLSA</a>
+              
             </p>  
           </div>
         </div>
@@ -91,7 +241,7 @@
 
     
     
-    <div class="container">
+    <!--<div class="container">
       
 
       <div class="row">
@@ -127,7 +277,117 @@
         </div>
       </div>
     </div>
+  -->
+
+   <!--<section class="ftco-section-3 img" style="background-color:#222831;">
+    	<div class="overlay"></div>
+    	<div class="container">
+    		<div class="row d-md-flex justify-content-center">
+    			<div class="col-md-9 about-video text-center">
+    				<h2 class="ftco-animate">Basketball Beyond Boundaries: Our Journey at Ball Life Sports Academy</h2>
+    				<div class="video d-flex justify-content-center">
+    					<a href="https://vimeo.com/45830194" class="play-button d-flex justify-content-center align-items-center"><span class="icon-play"></span></a>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section> -->
+ 
+ 
+         <section class="about_section layout_padding">
+<div class="col-6 title-section">
+            <h2 class="heading">Training Programs</h2>
+          </div>
+    <div class="container-fluid">	
+      <div class="box">
+        <div class="img-box">
+          <img src="images/about-img1.jpg" alt="" />
+        </div>
+        <div class="detail-box">
+         
+            <h2 class="heading">Prep Programs</h2>
+          
+          <p class="about-text">
+            In our preparation program, we offer a step-by-step guide to building a strong foundation in ball control, dribbling, passing, individual defense, footwork, and key shooting skills.
+          </p>
+          
+          </a>
+        </div>
+      </div>
+    </div>
+
+ <div class="container-fluid">
+      <div class="box">
+        
+        <div class="detail-box">
+          <h2>
+            Junior Programs
+          </h2>
+          <p class="about-text">
+            As a dynamic and high-intensity sport, basketball requires athletes to perform skills intermittently. In this program, we focus on next-level technical skills, such as deceptive ball handling to outmaneuver defenders, various shooting techniques, passing drills to create openings, rebounding with proper box-out techniques, and incorporating fake maneuvers and feints. 
+          </p>
+         
+        </div>
+     <div class="img-box">
+          <img src="images/about-img2.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+ <div class="container-fluid">
+      <div class="box">
+        <div class="img-box">
+          <img src="images/about-img3.jpg" alt="" />
+        </div>
+        <div class="detail-box">
+          <h2>
+            Specialist Program
+          </h2>
+          <p class="about-text">
+            Introducing our Specialist Programs tailored to enhance the skills of specific player positions. The "COMBO Guard Curl" program is designed for Point Guards and Shooting Guards, focusing on refining their versatile playing style. For the big centers looking to elevate their game, we present the "BIGMAN Boost" program, strategically crafted to meet the unique demands of the center position. Additionally, our "SWING MAN BOX" program caters to the needs of combo Shooting Guards and Small Forwards, offering a comprehensive training regimen to excel in both scoring and defensive roles. Elevate your game with our specialized programs, designed to bring out the best in each player's position-specific abilities. 
+          </p>
+          
+        </div>
+      </div>
+    </div>
   
+ <div class="container-fluid">
+      <div class="box">
+        
+        <div class="detail-box">
+          <h2>
+            Hoops Fitness Program
+          </h2>
+          <p class="about-text">
+            In this program, unique workouts are carefully curated to cater to both on-court and off-court training needs. Whether you're working with or without a ball, our program is designed to enhance various aspects of your game. Focus on improving Speed Endurance, Speed & Agility, Strength & Power, as well as Core Strength & Injury Prevention. Elevate your basketball performance with our holistic approach to fitness that addresses key elements crucial for success on the court.
+          </p>
+          
+        </div>
+     <div class="img-box">
+          <img src="images/about-img4.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+<div class="container-fluid">
+      <div class="box">
+        <div class="img-box">
+          <img src="images/about-img5.jpg" alt="" />
+        </div>
+        <div class="detail-box">
+          <h2>
+            Meticulous Shooting Program
+
+          </h2>
+          <p class="about-text">
+          In this program, focus on shooting form & technique, shooting in rhythm, shooting under various situations, and different shooting structures.
+          </p>
+         
+        </div>
+      </div>
+    </div>
+  
+   
+  </section>
+
 
     <div class="latest-news">
       <div class="container">
